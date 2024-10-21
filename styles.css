@@ -1,0 +1,123 @@
+/*INDEX*/
+
+html {
+    font-size: 7vh;
+}
+
+@font-face {
+    font-family: "Bahnschrift Semi-Light";
+    src: url(./Bahnschrift-Font-Family/BAHNSCHRIFT.TTF);
+}
+
+body {
+    background-image: url(./imgs/index_fundo3.png);
+    font-family: "Bahnschrift Semi-Light", sans-serif;
+    color: #b9abd6;
+    text-shadow: 2px 2px #600e97;
+    display: grid;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 6% 64% 30%;
+}
+
+audio {
+    opacity: 60%;
+}
+
+main {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position:relative;
+    left:-8%;
+}
+main p {
+    position:relative;
+    bottom:15%;
+}
+main #ryan {
+    position: relative;
+    bottom: 15%;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+section a:nth-child(odd) {
+    position: relative;
+    right: 10%;
+}
+section a:hover {
+    position: relative;
+    left: -5px;
+}
+section p {
+    color: #600e97;
+    background-color: #b9abd6;
+    border: #600e97 1px solid;
+    border-radius: 0.20em;
+    padding: 0.2em;
+    margin-left: 0em;
+}
+section a {
+    text-decoration: none;
+}
+/*tá ok mas melhor seria melhor*/
+section #em-breve:hover::before {
+    content: "Em breve!";
+    color: rgb(119, 3, 3);
+    font-size: 0.8em;
+    padding: 0.1em;
+    position: relative;
+    left:-4%;
+}
+
+#secreto {
+    opacity: 15%;
+    position:absolute;
+    left: -169px;
+    transition: left 6900ms ease-out;
+}
+#secreto:hover {
+    left:0;
+    opacity: 100%;
+}
+
+@media (max-width: 1200px) {
+    section{
+      grid-column: 3/4;
+      grid-row: 2/3;
+    }
+    /*nao quer funcioonar tbm odeio pensar*/
+@media (max-width: 600px) {
+    section {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+}
+/*literalmente nada mais funcionar  qo ´ta acontecendo */
+
+#my-passion {
+    position: relative;
+    bottom:40%;
+    text-decoration: none;
+}
+
+/*MYPASSION*/
+#body-my-passion {
+    background-color:blue;
+}
+#body-my-passion img {
+    display: block;
+    margin:auto;
+}
+#body-my-passion p {
+    position: relative;
+    bottom:40%;
+}

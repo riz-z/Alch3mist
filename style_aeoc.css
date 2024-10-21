@@ -1,0 +1,69 @@
+/*AEOC*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+
+
+header{
+    background-color: rgb(22, 22, 22);
+    padding-top: 0.5em;
+    text-align: center;
+}
+header li {
+    list-style: none;
+    display: inline;
+    font-size: larger;
+}
+nav ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid black;
+}
+/*AQUI DEVERIA FAZER FICAR COM UNDERLINE QUANDO HOVER, MAS TÁ ROXO SEMPRE*/
+
+
+
+#quadrado {
+    width: 20%;
+    display: block;
+    margin-left: 4em;
+    margin-top: 4em;
+}
+/*pelo amor de deus arrumar isso tem    que pensar acho difícil pensar dói mas pensa*/
+#quadrado:hover {
+    display: none;
+}
+#quadrado:hover:before {
+    content:'oi';
+}
+/*essa parte nem serve pra nada tem que ver como faz*/
+#replace {
+    margin-left: 4em;
+    margin-top: 4em;
+    opacity: 0%;
+}
+#replace:hover {
+    opacity: 100%;
+    margin-left: 4em;
+    margin-top: 4em;
+}
+
+
+/******SENHA******/
+/*mudar a fonte, mas principalmente meter um botão depois com javascript provalvemente*/
+#html-senha {
+    font-size:larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#senha{
+    color: rgb(192, 181, 181);
+    text-align: center;
+    margin-top: 10em;
+}
+
+#body-senha {
+    background-image: url(./imgs/aeoc_icon.png);
+}
