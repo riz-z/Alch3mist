@@ -95,7 +95,7 @@ section #em-breve:hover::before {
       grid-row: 2/3;
     }
     /*nao quer funcioonar tbm odeio pensar*/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     section {
         grid-column: 2/3;
         grid-row: 3/4;
@@ -103,21 +103,3 @@ section #em-breve:hover::before {
 }
 /*literalmente nada mais funcionar  qo ´ta acontecendo */
 
-#my-passion {
-    position: relative;
-    bottom:40%;
-    text-decoration: none;
-}
-
-/*MYPASSION*/
-#body-my-passion {
-    background-color:blue;
-}
-#body-my-passion img {
-    display: block;
-    margin:auto;
-}
-#body-my-passion p {
-    position: relative;
-    bottom:40%;
-}
